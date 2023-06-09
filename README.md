@@ -30,7 +30,9 @@ You also need all of trained models to using in my extention. [Download here](ht
 
 
 ## How to use:
-![](embed.html)
+[![Watch the demo here]          // Title
+(thumb.png)] // Thumbnail
+(https://www.youtube.com/watch?v=GyhCeiEjsKw)    // Video Link
 ---
 If you like that, please Star my repo 🌟
 And if you want to support let follows my github 🎆
