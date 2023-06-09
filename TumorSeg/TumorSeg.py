@@ -181,7 +181,8 @@ class TumorSegWidget(ScriptedLoadableModuleWidget, VTKObservationMixin):
                 logging.info(f"Start at: {start}")
                 seg_vol = slicer.mrmlScene.AddNewNodeByClass("vtkMRMLLabelMapVolumeNode","seg")
 
-                model = torch.jit.load(f'/Users/mac/Desktop/Extension/RC/TumorSeg/trained/{modelname.lower()}.zip')
+                trained_path = "/Users/mac/Desktop/Extension/RC/TumorSeg/trained"
+                model = torch.jit.load(f'{trained_path}/{modelname.lower()}.zip')
                 model.eval()
 
                 predict = self.predict(model, self.data)

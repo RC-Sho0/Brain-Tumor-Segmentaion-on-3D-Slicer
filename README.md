@@ -12,7 +12,7 @@ In this thesis we was proposed 2 methode for 3D Brain Tumor Segmentation(BTS) pr
 This repo is storage my demo app.
 
 My app is an Extension of [3D Slicer](). So you need to installed this app first.
-You also need all of trained models to using in my extention. [Download here]().
+You also need all of trained models to using in my extention. [Download here](https://1drv.ms/f/s!ArlplJhiPYx6gj2mHxkUZl7HWs1z?e=UGHIQ4).
 
 ## How to install.
 1. Clone this repository.
@@ -22,11 +22,18 @@ You also need all of trained models to using in my extention. [Download here]().
 2. Add extension into 3D Slicer.
    - Open 3D Slicer.
    - 3D Slicer -> Edit -> Application Setting -> Drag folder of repo into 'Additional module paths'
-3. Let's play.
-   
-    Go to: HUFLIT THESIS -> Brain Tumor Segmentaion 
+3. Add traied module into Extension.
+   - Copy path of trained folder
+   - Replace the path at the **"trained_path"** variable in the file TumorSeg.py
+
+    ![](scrshot.png)
 
 
 ## How to use:
-![](RC/TumorSeg/static/demo02.mov)
+<iframe src="https://onedrive.live.com/embed?cid=7A8C3D62989469B9&resid=7A8C3D62989469B9%21315&authkey=ABxErkANobTgIeQ" width="320" height="180" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
+---
+If you like that, please Star my repo 🌟
+And if you want to support let follows my github 🎆
+
+***Authorized by [Sho0](https://sonvth.vercel.app/about)***
