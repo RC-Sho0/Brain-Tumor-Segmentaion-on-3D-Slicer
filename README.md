@@ -5,13 +5,13 @@
 
 ## Introduction
 In this thesis we was proposed 2 methode for 3D Brain Tumor Segmentation(BTS) problem.
-- 3D Dual-Domain Attention Network: We was develop a module using Attention Mechanism can combine 2 level information of the feature... [Read more]()
-- 3D Dual-Fusion Attention Network: We introduce a new way of fusion 2 trained model for BTS. Using fusion method, Self-Attention and Residual Learning. [Read more]()
+- 3D Dual-Domain Attention Network: We was develop a module using Attention Mechanism can combine 2 level information of the feature... [Read more](https://sonvth.vercel.app/fusion3dda)
+- 3D Dual-Fusion Attention Network: We introduce a new way of fusion 2 trained model for BTS. Using fusion method, Self-Attention and Residual Learning. [Read more](https://sonvth.vercel.app/fusionbrainseg)
   
 ## Demo Application
 This repo is storage my demo app.
 
-My app is an Extension of [3D Slicer](). So you need to installed this app first.
+My app is an Extension of [3D Slicer](https://www.google.com/search?q=3D+Slicer&sourceid=chrome&ie=UTF-8). So you need to installed this app first.
 You also need all of trained models to using in my extention. [Download here](https://1drv.ms/f/s!ArlplJhiPYx6gj2mHxkUZl7HWs1z?e=UGHIQ4).
 
 ## How to install.
@@ -30,6 +30,7 @@ You also need all of trained models to using in my extention. [Download here](ht
 
 
 ## How to use:
+Click in the thumb to watching:
 [![Watch the demo here](thumb.png)](https://www.youtube.com/watch?v=GyhCeiEjsKw)
  
 ---
