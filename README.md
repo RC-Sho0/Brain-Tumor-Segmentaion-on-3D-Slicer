@@ -19,7 +19,7 @@ You also need all of trained models to using in my extention. [Download here](ht
    ``` shell 
     ~ git clone https://github.com/RC-Sho0/Brain-Tumor-Segmentaion-on-3D-Slicer.git
     ~ cd Brain-Tumor-Segmentaion-on-3D-Slicer
-    ~ pip install requirements.txt
+    ~ pip install -r requirements.txt
    ```
 2. Add extension into 3D Slicer.
    - Open 3D Slicer.
